@@ -52,3 +52,8 @@ It seems to be failing on this line specifically:
 ```ts
 const { createServer } = await import('vite');
 ```
+
+An attempt to add [@deno/vite-plugin](https://github.com/denoland/deno-vite-plugin) on [this branch](https://github.com/soundstep/deno-vite-ssr-playground/compare/main...deno-vite-plugin) has been made but the command (originally `node server.js`) from the vite template is not using the vite binary directly, and probably not the vite config either.
+
+Reported to the Deno team:
+<https://discord.com/channels/684898665143206084/1359100251784614080>
