@@ -40,6 +40,8 @@ deno run -A server.ts
 
 ### Missing symbol
 
+UPDATE: [this issue](https://github.com/denoland/deno/issues/28798) has been fixed with Deno `2.2.8`
+
 Run `deno run -A server.ts` error:
 
 ```sh
